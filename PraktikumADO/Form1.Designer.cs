@@ -97,6 +97,7 @@
             this.btnUpdateSKS.TabIndex = 5;
             this.btnUpdateSKS.Text = "UpdateSKS";
             this.btnUpdateSKS.UseVisualStyleBackColor = true;
+            this.btnUpdateSKS.Click += new System.EventHandler(this.btnUpdateSKS_Click);
             // 
             // btnInsertProdi
             // 
