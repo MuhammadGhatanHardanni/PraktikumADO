@@ -87,6 +87,7 @@
             this.btnHitungDosen.TabIndex = 4;
             this.btnHitungDosen.Text = "HtiungDosen";
             this.btnHitungDosen.UseVisualStyleBackColor = true;
+            this.btnHitungDosen.Click += new System.EventHandler(this.btnHitungDosen_Click);
             // 
             // btnUpdateSKS
             // 
