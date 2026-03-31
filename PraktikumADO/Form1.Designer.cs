@@ -45,16 +45,16 @@
             this.btnConnect.Name = "btnConnect";
             this.btnConnect.Size = new System.Drawing.Size(75, 23);
             this.btnConnect.TabIndex = 0;
-            this.btnConnect.Text = "button1";
+            this.btnConnect.Text = "Connect";
             this.btnConnect.UseVisualStyleBackColor = true;
             // 
             // btnHitungMhs
             // 
             this.btnHitungMhs.Location = new System.Drawing.Point(254, 237);
             this.btnHitungMhs.Name = "btnHitungMhs";
-            this.btnHitungMhs.Size = new System.Drawing.Size(75, 23);
+            this.btnHitungMhs.Size = new System.Drawing.Size(78, 23);
             this.btnHitungMhs.TabIndex = 1;
-            this.btnHitungMhs.Text = "button2";
+            this.btnHitungMhs.Text = "HitungMhs";
             this.btnHitungMhs.UseVisualStyleBackColor = true;
             // 
             // btnHitungMK
@@ -63,7 +63,7 @@
             this.btnHitungMK.Name = "btnHitungMK";
             this.btnHitungMK.Size = new System.Drawing.Size(75, 23);
             this.btnHitungMK.TabIndex = 2;
-            this.btnHitungMK.Text = "button3";
+            this.btnHitungMK.Text = "Hitung Mk";
             this.btnHitungMK.UseVisualStyleBackColor = true;
             // 
             // btnUpdate
@@ -72,7 +72,7 @@
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(75, 23);
             this.btnUpdate.TabIndex = 3;
-            this.btnUpdate.Text = "button4";
+            this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -106,11 +106,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(366, 116);
+            this.label1.Location = new System.Drawing.Point(95, 62);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 16);
+            this.label1.Size = new System.Drawing.Size(38, 16);
             this.label1.TabIndex = 7;
-            this.label1.Text = "label1";
+            this.label1.Text = "Hasil";
             // 
             // txtHasil
             // 
@@ -118,6 +118,7 @@
             this.txtHasil.Name = "txtHasil";
             this.txtHasil.Size = new System.Drawing.Size(477, 22);
             this.txtHasil.TabIndex = 8;
+            this.txtHasil.TextChanged += new System.EventHandler(this.txtHasil_TextChanged);
             // 
             // Form1
             // 
